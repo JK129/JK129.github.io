@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jk129.github.io/categories/index.html</loc>
+    
+    <lastmod>2020-04-19T03:17:15.686Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://jk129.github.io/tags/index.html</loc>
     
-    <lastmod>2020-04-19T02:38:15.790Z</lastmod>
+    <lastmod>2020-04-19T03:15:52.754Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://jk129.github.io/2020/02/18/%E6%84%BF%E4%B8%96%E9%97%B4%E7%BE%8E%E5%A5%BD%E4%B8%8E%E4%BD%A0%E7%8E%AF%E7%8E%AF%E7%9B%B8%E6%89%A3/</loc>
+    
+    <lastmod>2020-04-19T02:50:55.195Z</lastmod>
     
   </url>
   
@@ -16,23 +30,9 @@
   </url>
   
   <url>
-    <loc>http://jk129.github.io/2020/02/18/%E6%84%BF%E4%B8%96%E9%97%B4%E7%BE%8E%E5%A5%BD%E4%B8%8E%E4%BD%A0%E7%8E%AF%E7%8E%AF%E7%9B%B8%E6%89%A3/</loc>
-    
-    <lastmod>2020-04-19T02:31:16.273Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://jk129.github.io/2020/02/22/%E6%9C%80%E7%BE%8E%E7%9A%84%E6%98%AF%E5%88%9D%E8%A7%81/</loc>
     
     <lastmod>2020-04-16T09:40:14.666Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://jk129.github.io/categories/index.html</loc>
-    
-    <lastmod>2020-04-16T09:34:27.604Z</lastmod>
     
   </url>
   
