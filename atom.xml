@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jk129.github.io/"/>
-  <updated>2020-04-19T02:34:46.737Z</updated>
+  <updated>2020-04-20T08:41:19.571Z</updated>
   <id>http://jk129.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FET和OECT的区别</title>
+    <link href="http://jk129.github.io/2020/04/20/FET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
+    <id>http://jk129.github.io/2020/04/20/FET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB/</id>
+    <published>2020-04-20T08:12:05.000Z</published>
+    <updated>2020-04-20T08:41:19.571Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;1-1、背景：&quot;&gt;&lt;a href=&quot;#1-1、背景：&quot; class=&quot;headerlink&quot; title=&quot;1.1、背景：&quot;&gt;&lt;/a&gt;&lt;strong&gt;1.1、背景：&lt;/strong&gt;&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;半导体材料对晶体管的研究至关重要，尤其是有机场效应晶体 管  (organic field-effect transistor, OFET) 和 有 机 电 化 学 晶 体 管  (organic electrochemical transistor, OECT)，半导体的更新和性能优化直接推进有机电子 (organic electronics)领域的发展，引导着有机电子器件的研究。&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="项目" scheme="http://JK129.github.io/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+      <category term="技术" scheme="http://JK129.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>OECT原理简介</title>

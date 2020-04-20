@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+   
+  <meta name="keywords" content="生活，旅行，思考，代码，博客" />
+   
+  <meta name="description" content="春暖花开" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>
+    FET和OECT的区别 |  风居住的街道
+  </title>
+  <meta name="generator" content="hexo-theme-yilia-plus">
+  
+  <link rel="shortcut icon" href="/favicon.ico" />
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+<script src="/js/pace.min.js"></script>
+
+
+  
+
+  
+
+<link rel="alternate" href="/atom.xml" title="风居住的街道" type="application/atom+xml">
+</head>
+
+</html>
+
+<body>
+  <div id="app">
+    <main class="content">
+      <section class="outer">
+  <article id="post-FET和OECT的区别" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  FET和OECT的区别
+</h1>
+  
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/04/20/FET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB/" class="article-date">
+  <time datetime="2020-04-20T08:12:05.000Z" itemprop="datePublished">2020-04-20</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E9%A1%B9%E7%9B%AE/">项目</a>
+  </div>
+
+      
+      
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">4.3k字</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">14分钟</span>
+        </span>
+    </span>
+</div>
+
+      
+    </div>
+    
+
+    
+    
+    <div class="tocbot"></div>
+
+
+
+
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+
+
+      
+
+      
+      <h4 id="1-1、背景："><a href="#1-1、背景：" class="headerlink" title="1.1、背景："></a><strong>1.1、背景：</strong></h4><blockquote>
+<p>半导体材料对晶体管的研究至关重要，尤其是有机场效应晶体 管  (organic field-effect transistor, OFET) 和 有 机 电 化 学 晶 体 管  (organic electrochemical transistor, OECT)，半导体的更新和性能优化直接推进有机电子 (organic electronics)领域的发展，引导着有机电子器件的研究。<a id="more"></a></p>
+</blockquote>
+<blockquote>
+<p>根据半导体材料不同可以将其分为无机半导体 (inorganic semiconductor) 和有机半导体 (organic semiconductor)。有机半导体一般为具有 p-π 共轭结构的有机聚合物和金属有机化合物，随着有机导电聚合物的发现和发展，有机半导体逐渐延伸它的应用领域，值得注意的是在晶体管器件上的应用正在促进着电子信息技术的进步，以晶体管为基础的有机场效应晶体管和有机电化学晶体管正在引领着生物电子领域的发展。</p>
+</blockquote>
+<blockquote>
+<p>按照载流子传输方式来分类，有机半导体材料可以分为主要传输空穴的 p型半导体和主要传输电子的 n 型半导体。其中 p 型有机半导体一般为具有共轭结构的有机分子 (图 1.1 B)，n 型有机半导体材料一般为具有吸电子基团的有机小分子 (图 1.1 B)。与无机半导体材料相比有机半导体材料更易获得、成本低，成膜技术相对简单容易操作，利用它较好的生物相容性和柔韧性可以制备更适用于生物活体层次的场效应器件；现在应用最为广泛的为 p 型有机半导体材料，它们在不同电解质中的稳定性和成膜性更好，导电率更高更有利于在大的电压跨度下调节晶体管性能，然而现阶段获得的材料还不能满足所有领域的应用，为了获得更加理想的导电材料，人们正不断对有机分子进行化学改进和掺杂，如 p(gNDI-T2)、P-90等新型 n 型半导体材料。</p>
+<p><img src="/2020/04/20/FET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB/E:%5Cblog%5Csource_posts%5CFET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB%5CP_type.png" alt></p>
+<p>​                                                                    图1.1A、P_type</p>
+<p><img src="/2020/04/20/FET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB/E:%5Cblog%5Csource_posts%5CFET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB%5Cn_type.png" alt></p>
+<p>​                                                                    图1.1A、N_type</p>
+</blockquote>
+<h4 id="1-2、-有机场效应晶体管简介"><a href="#1-2、-有机场效应晶体管简介" class="headerlink" title="1.2、 有机场效应晶体管简介"></a>1.2、 <strong>有机场效应晶体管简介</strong></h4><blockquote>
+<p>有机场效应晶体管 (OFET) 与场效应晶体管不同之处在于 OFET 用有机半导体材料作为导电沟道材料。自上世纪 30 年代晶体管的提出开始 (图 1.2)，这种具有放大信号作用的器件一直活跃在研究信息传输的前沿领域，19 世纪 70 年代有机半导体材料与晶体管的结合，为场效应晶体管的研究打开了新世界的大门，场效应晶体管不再局限于固体物理器件的范畴。</p>
+<p><img src="/2020/04/20/FET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB/E:%5Cblog%5Csource_posts%5CFET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB%5C3.png" alt></p>
+<p>​                                              图1.2、有机场效应晶体管的提出与发展历程</p>
+<p>有机场效应晶体管的基本组成部分如图 1.2 (A) 所示，由源极 (source, S) 向半导体沟道中注入载流子，再由沟道流出到漏极 (drain, D)，栅极 (gate, G) 施加电压调节半导体沟道中的载流子浓度，以达到调节源漏电流 (IDS) 的目的，这个</p>
+<p><img src="/2020/04/20/FET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB/E:%5Cblog%5Csource_posts%5CFET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB%5C4.png" alt></p>
+<p>​                                                                   图1.2A、OFET结构</p>
+<p><img src="/2020/04/20/FET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB/E:%5Cblog%5Csource_posts%5CFET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB%5C5.png" alt></p>
+<p><img src="/2020/04/20/FET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB/E:%5Cblog%5Csource_posts%5CFET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB%5C6.png" alt></p>
+<p>​                                                                             工作原理图</p>
+<p>过程可以看作栅极电压大小与半导体层载流子多少同时变化的平行板电容器 (图1.4 B)，还可以形象的比喻成有水流过的水龙头，水龙头 (栅极 G) 可以控制水流 (载流子浓度) 的大小 (图 1.4 C)。 晶体管由半导体、电介质和金属制成，能够控制固态器件中的电子流动，从而为真空管提供了一个可靠的替代品。</p>
+<p>晶体管依赖于场效应掺杂，半导体内部的移动电子 (n 型) 或空穴 (p 型) 的数量由施加在金属电极上的电压调控，金属电极与半导体之间由一薄绝缘层 (栅介质) 隔开，这种器件被称为 MOSFET，是金属-氧化物-半导体场效应晶体管的简称。OFET 不断的发展导致了有机半导体材料的继续发展，其极大的稳定性和流动性远远超过非晶态硅。 OFET传感器一般使用 p-共轭有机半导体作为电子材料，并通过适当的功能化或整合生物系统 (如 DNA 株、抗体、酶和捕获蛋白质) 而具有生物识别能力。与其他传感技术 (如电化学或光学传感技术) 相比，该技术的优点是能够使用简单的电子读出装置提供的无需标记的响应信号，同时还可以使用印刷电路技术轻松实现微型化。OFET 是基于有机或塑料电子技术的框架下开发的，而有机或塑料电子技术是基于器件结构的一个相对较新的领域, 塑料电子系统使用生产成本非常低的印刷设备。将 OFET 用于传感，其最简单的结构为将半导体膜直接暴露于待分析的大气中，在这种情况下，半导体材料既是电子传输材料，又是传感层。OFET 传感器检测是无标签的，而且它具有很高的可重复性，它是敏感的，并可适当的用生物受体功能化来实现选择性。只有当 OFET 具有通常仅由生物识别元素提供的识别能力时，才有可能实现所需的选择性。 </p>
+<p>综上，有机场效应晶体管在传感分析智能电子等方面都有广泛应用，比如压力传感、集成电路等。然而要想真正应用于有溶液存在的复杂生理体系，存在载流子迁移率低以及半导体材料在液相环境中的稳定性问题，在上世纪 90 年代，有机电化学晶体管的出现，将场效应器件改装应用于液相体系中，同时利用场效应器件的信号放大作用，为生物分析开拓了新的方向。</p>
+</blockquote>
+<h4 id="1-3、OECT"><a href="#1-3、OECT" class="headerlink" title="1.3、OECT"></a><strong>1.3、OECT</strong></h4><blockquote>
+<p>有机电化学晶体管 (OECT) 以有机导电高分子材料作为半导体膜，用电解质溶液代替栅极 (G) 与半导体膜间的绝缘层，栅极上发生的氧化还原反应调节栅电压 (VGS) 大小进而调节源漏电流 (IDS) 大小，通过控制电场强度控制半导体表面电流大小，具有整流、放大等多种功能。OECT 最初是由 White等人建立的，他们报道了一种带有微电极阵列的设备，当微电极阵列浸入电解质溶液中时，可以为晶体管放大微小电流。它们首次用电解质将栅极和半导体沟 5 道分离，使栅极和沟道界面都能进行功能修饰。</p>
+</blockquote>
+<blockquote>
+<p>OECT 基本工作原理如图 1.5 所示，当用 PEDOT: PSS 作为沟道材料，未加栅极电压，溶液中的离子，半导体膜中电子、空穴的分布情况; 当栅压大于零，PEDOT+ 被还原，溶液中正离子注入膜：PEDOT+ + e- = PEDOT0，负离子在电极上发生反应：X- = X0 + e-。</p>
+<p><img src="/2020/04/20/FET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB/E:%5Cblog%5Csource_posts%5CFET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB%5C7.png" alt></p>
+<p>使用电解质作为介质，使得 OECT 设计栅极相对于通道的位置方面具有很大的灵活性。在 OFET 中，电荷沿着堆积在半导体栅极介电界面上，相比之下，在 OECT 中，整个通道体积都会帮助于载流子运输，因此，在相同的给定通道长度下，可以产生更高的电流。因此，可以根据栅极、电解液、沟道尺寸和它们之间的相对位置，制作出不同的低工作电压的电子器件。此外，可以在各种基底上应用不同的沉积和生成图形技术，包括柔性和可拉伸的基底，为全新的器件结构的制备和设计提供了新的方式。</p>
+</blockquote>
+<h4 id="一、FET"><a href="#一、FET" class="headerlink" title="一、FET"></a><strong>一、FET</strong></h4><blockquote>
+<p>场效应晶体管（Field Effect Transistor缩写(FET)）简称场效应管。主要有两种类型：结型场效应管（junction FET—JFET)和金属 - 氧化物半导体场效应管（metal-oxide semiconductor FET，简称MOS-FET）。由多数载流子参与导电，也称为单极型晶体管。它属于电压控制型半导体器件。具有输入电阻高（107～1015Ω）、噪声小、功耗低、动态范围大、易于集成、没有二次击穿现象、安全工作区域宽等优点，现已成为双极型晶体管和功率晶体管的强大竞争者。</p>
+</blockquote>
+<h5 id="特点："><a href="#特点：" class="headerlink" title="特点："></a><strong>特点：</strong></h5><ol>
+<li><blockquote>
+<p>场效应管是电压控制器件，它通过VGS(栅源电压)来控制ID（漏极电流）；</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>场效应管的控制输入端电流极小，因此它的输入电阻（107～1012Ω）很大。</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>它是利用多数载流子导电，因此它的温度稳定性较好；</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>它组成的放大电路的电压放大系数要小于三极管组成放大电路的电压放大系数；</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>场效应管的抗辐射能力强；</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>由于它不存在杂乱运动的电子扩散引起的散粒噪声，所以噪声低。</p>
+</blockquote>
+</li>
+</ol>
+<h5 id="工作原理："><a href="#工作原理：" class="headerlink" title="工作原理："></a><strong>工作原理：</strong></h5><blockquote>
+<p>场效应管工作原理用一句话说，就是“漏极-源极间流经沟道的ID，用以栅极与沟道间的pn结形成的反偏的栅极电压控制ID”。更正确地说，ID流经通路的宽度，即沟道截面积，它是由pn结反偏的变化，产生耗尽层扩展变化控制的缘故。在VGS=0的非饱和区域，表示的过渡层的扩展因为不很大，根据漏极-源极间所加VDS的电场，源极区域的某些电子被漏极拉去，即从漏极向源极有电流ID流动。从门极向漏极扩展的过度层将沟道的一部分构成堵塞型，ID饱和。将这种状态称为夹断。这意味着过渡层将沟道的一部分阻挡，并不是电流被切断。</p>
+<p><img src="/2020/04/20/FET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB/E:%5Cblog%5Csource_posts%5CFET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB%5C8.png" alt></p>
+<p>在过渡层由于没有电子、空穴的自由移动，在理想状态下几乎具有绝缘特性，通常电流也难流动。但是此时漏极-源极间的电场，实际上是两个过渡层接触漏极与门极下部附近，由于漂移电场拉去的高速电子通过过渡层。因漂移电场的强度几乎不变产生ID的饱和现象。其次，VGS向负的方向变化，让VGS=VGS(off)，此时过渡层大致成为覆盖全区域的状态。而且VDS的电场大部分加到过渡层上，将电子拉向漂移方向的电场，只有靠近源极的很短部分，这更使电流不能流通。</p>
+</blockquote>
+<h5 id="应用领域："><a href="#应用领域：" class="headerlink" title="应用领域："></a><strong>应用领域：</strong></h5><blockquote>
+<p>场效应管（FET）是电场效应控制电流大小的单极型半导体器件。在其输入端基本不取电流或电流极小，具有输入阻抗高、噪声低、热稳定性好、制造工艺简单等特点，在大规模和超大规模集成电路中被应用。</p>
+</blockquote>
+<blockquote>
+<p>场效应器件凭借其低功耗、性能稳定、抗辐射能力强等优势，在集成电路中已经有逐渐取代三极管的趋势。但它还是非常娇贵的，虽然多数已经内置了保护二极管，但稍不注意，也会损坏。所以在应用中还是小心为妙。</p>
+</blockquote>
+<h4 id="补充：pn结："><a href="#补充：pn结：" class="headerlink" title="补充：pn结："></a><strong>补充：pn结：</strong></h4><blockquote>
+<p>采用不同的掺杂工艺，通过扩散作用，将P型半导体与N型半导体制作在同一块半导体（通常是硅或锗）基片上，在它们的交界面就形成空间电荷区称为PN结（英语：PN junction）。PN结具有单向导电性，是电子技术中许多器件所利用的特性，例如半导体二极管、双极性晶体管的物质基础。</p>
+</blockquote>
+<h5 id="原理"><a href="#原理" class="headerlink" title="原理:"></a><strong>原理:</strong></h5><h5 id="杂质半导体"><a href="#杂质半导体" class="headerlink" title="杂质半导体"></a><strong>杂质半导体</strong></h5><blockquote>
+<p>N型半导体（N为Negative的字头，由于电子带负电荷而得此名）：掺入少量杂质磷元素（或锑元素）的硅晶体（或锗晶体）中，由于半导体原子（如硅原子）被杂质原子取代，磷原子外层的五个外层电子的其中四个与周围的半导体原子形成共价键，多出的一个电子几乎不受束缚，较为容易地成为自由电子。于是，N型半导体就成为了含电子浓度较高的半导体，其导电性主要是因为自由电子导电。 [1] </p>
+</blockquote>
+<blockquote>
+<p>P型半导体（P为Positive的字头，由于空穴带正电而得此名）：掺入少量杂质硼元素（或铟元素）的硅晶体（或锗晶体）中，由于半导体原子（如硅原子）被杂质原子取代，硼原子外层的三个外层电子与周围的半导体原子形成共价键的时候，会产生一个“空穴”，这个空穴可能吸引束缚电子来“填充”，使得硼原子成为带负电的离子。这样，这类半导体由于含有较高浓度的“空穴”（“相当于”正电荷），成为能够导电的物质。 [2] </p>
+</blockquote>
+<h5 id="PN结的形成"><a href="#PN结的形成" class="headerlink" title="PN结的形成"></a>PN结的形成</h5><blockquote>
+<p>PN结是由一个N型掺杂区和一个P型掺杂区紧密接触所构成的，其接触界面称为冶金结界面。 [3] </p>
+</blockquote>
+<blockquote>
+<p>在一块完整的硅片上，用不同的掺杂工艺使其一边形成N型半导体，另一边形成P型半导体，我们称两种半导体的交界面附近的区域为PN结。</p>
+</blockquote>
+<blockquote>
+<p>在P型半导体和N型半导体结合后，由于N型区内自由电子为多子，空穴几乎为零称为少子，而P型区内空穴为多子，自由电子为少子，在它们的交界处就出现了电子和空穴的浓度差。由于自由电子和空穴浓度差的原因，有一些电子从N型区向P型区扩散，也有一些空穴要从P型区向N型区扩散。它们扩散的结果就使P区一边失去空穴，留下了带负电的杂质离子，N区一边失去电子，留下了带正电的杂质离子。开路中半导体中的离子不能任意移动，因此不参与导电。这些不能移动的带电粒子在P和N区交界面附近，形成了一个空间电荷区，空间电荷区的薄厚和掺杂物浓度有关。</p>
+</blockquote>
+<blockquote>
+<p>在空间电荷区形成后，由于正负电荷之间的相互作用，在空间电荷区形成了内电场，其方向是从带正电的N区指向带负电的P区。显然，这个电场的方向与载流子扩散运动的方向相反，阻止扩散。</p>
+</blockquote>
+<blockquote>
+<p>另一方面，这个电场将使N区的少数载流子空穴向P区漂移，使P区的少数载流子电子向N区漂移，漂移运动的方向正好与扩散运动的方向相反。从N区漂移到P区的空穴补充了原来交界面上P区所失去的空穴，从P区漂移到N区的电子补充了原来交界面上N区所失去的电子，这就使空间电荷减少，内电场减弱。因此，漂移运动的结果是使空间电荷区变窄，扩散运动加强。</p>
+</blockquote>
+<blockquote>
+<p>最后，多子的扩散和少子的漂移达到动态平衡。在P型半导体和N型半导体的结合面两侧，留下离子薄层，这个离子薄层形成的空间电荷区称为PN结。PN结的内电场方向由N区指向P区。在空间电荷区，由于缺少多子，所以也称耗尽层。</p>
+</blockquote>
+<h5 id="特性概述"><a href="#特性概述" class="headerlink" title="特性概述"></a>特性概述</h5><blockquote>
+<p>从PN结的形成原理可以看出，要想让PN结导通形成电流，必须消除其空间电荷区的内部电场的阻力。很显然，给它加一个反方向的更大的电场，即P区接外加电源的正极，N区接负极，就可以抵消其内部自建电场，使载流子可以继续运动，从而形成线性的正向电流。而外加反向电压则相当于内建电场的阻力更大，PN结不能导通，仅有极微弱的反向电流（由少数载流子的漂移运动形成，因少子数量有限，电流饱和）。当反向电压增大至某一数值时，因少子的数量和能量都增大，会碰撞破坏内部的共价键，使原来被束缚的电子和空穴被释放出来，不断增大电流，最终PN结将被击穿（变为导体）损坏，反向电流急剧增大。</p>
+</blockquote>
+
+      
+      <!-- reward -->
+      
+      <div id="reward-btn">
+        打赏
+      </div>
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+        <div class="declare">
+          <ul class="post-copyright">
+            <li>
+              <i class="ri-copyright-line"></i>
+              <strong>版权声明： </strong s>
+              本博客所有文章除特别声明外，均采用 <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="external nofollow"
+                target="_blank">Apache License 2.0</a> 许可协议。转载请注明出处！
+            </li>
+          </ul>
+        </div>
+        
+    <footer class="article-footer">
+      
+          
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://jk129.github.io/2020/04/20/FET%E5%92%8COECT%E7%9A%84%E5%8C%BA%E5%88%AB/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
+
+
+    </footer>
+
+  </div>
+
+  
+  
+  <nav class="article-nav">
+    
+    
+      <a href="/2020/04/16/OECT%E5%8E%9F%E7%90%86%E7%AE%80%E4%BB%8B/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">OECT原理简介</div>
+      </a>
+    
+  </nav>
+
+
+  
+
+  
+  
+<!-- valine评论 -->
+<div id="vcomments-box">
+    <div id="vcomments">
+    </div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js'></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        app_id: '',
+        app_key: '',
+        path: window.location.pathname,
+        notify: 'false',
+        verify: 'false',
+        avatar: 'mp',
+        placeholder: '给我的文章加点评论吧~',
+        recordIP: true
+    });
+    const infoEle = document.querySelector('#vcomments .info');
+    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+        infoEle.childNodes.forEach(function (item) {
+            item.parentNode.removeChild(item);
+        });
+    }
+</script>
+<style>
+    #vcomments-box {
+        padding: 5px 30px;
+    }
+
+    @media screen and (max-width: 800px) {
+        #vcomments-box {
+            padding: 5px 0px;
+        }
+    }
+
+    #vcomments-box #vcomments {
+        background-color: #fff;
+    }
+
+    .v .vlist .vcard .vh {
+        padding-right: 20px;
+    }
+
+    .v .vlist .vcard {
+        padding-left: 10px;
+    }
+</style>
+
+  
+
+  
+  
+  
+
+</article>
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul class="list-inline">
+      <li>
+        &copy;
+        2019-2020
+        Hou
+      </li>
+      <li>
+        
+      </li>
+    </ul>
+    <ul class="list-inline">
+      <li>
+        
+        
+        <span>
+  <i>PV:<span id="busuanzi_value_page_pv"></span></i>
+  <i>UV:<span id="busuanzi_value_site_uv"></span></i>
+</span>
+        
+      </li>
+      <li>
+        <!-- cnzz统计 -->
+        
+        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
+        
+      </li>
+    </ul>
+  </div>
+</footer>
+    <div class="to_top">
+        <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+      </div>
+    </main>
+      <aside class="sidebar">
+        <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/ayer-side.svg" alt="风居住的街道"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">目录</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/2020/02/16/About20%25Me/">关于我</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="Search">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="ri-rss-line"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+      </aside>
+      <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/2.jpg">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/3.png">
+      <span class="reward-type">微信</span>
+    </div>
+    
+  </div>
+</div>
+      
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+<script src="/js/jquery.justifiedGallery.min.js"></script>
+
+
+<script src="/js/lazyload.min.js"></script>
+
+
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+
+
+<script src="/js/share.js"></script>
+
+
+
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script>
+  try {
+    var typed = new Typed("#subtitle", {
+    strings: ['面朝大海，春暖花开','愿你一生努力，一生被爱','想要的都拥有，得不到的都释怀'],
+    startDelay: 0,
+    typeSpeed: 200,
+    loop: true,
+    backSpeed: 100,
+    showCursor: true
+    });
+  } catch (err) {
+  }
+  
+</script>
+
+
+
+
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer:'main',
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+    onClick: (e) => {
+      $('.toc-link').removeClass('is-active-link');
+      $(`a[href=${e.target.hash}]`).addClass('is-active-link');
+      $(e.target.hash).scrollIntoView();
+      return false;
+    }
+  });
+</script>
+
+
+<script>
+  var ayerConfig = {
+    mathjax: true
+  }
+</script>
+
+
+<script src="/js/ayer.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css">
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script>
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+<script type="text/javascript" src="https://js.users.51.la/20544303.js"></script>
+  </div>
+</body>
+
+</html>
